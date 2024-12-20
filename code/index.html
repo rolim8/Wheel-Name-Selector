@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheel of fortune - Name Selector</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Wheel of fortune - Name Selector</h1>
+
+    <!-- Controls for adding names and spinning the wheel -->
+    <div id="controls">
+      <input type="text" id="nameInput" placeholder="Enter a name" />
+      <button onclick="addName()">Add Name</button>
+      <button onclick="spinWheel()">Spin the Wheel</button>
+      <button onclick="clearWheel()">Clear Wheel</button>
+    </div>
+
+    <!-- Canvas for drawing the wheel -->
+    <div style="position: relative; display: inline-block">
+      <canvas id="wheelCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <!-- Audio for spinning sound -->
+    <audio id="spinSound" src="../sounds/spin-sound.mp3" loop></audio>
+    <!-- Audio for end of spin sound -->
+    <audio id="endSpinSound" src="../sounds/end-spin-sound.mp3"></audio>
+
+    <!-- Display for the winner -->
+    <h2 id="winnerDisplay"></h2>
+    <button
+      id="removeWinnerButton"
+      onclick="removeWinner()"
+      style="display: none"
+    >
+      Remove Winner
+    </button>
+
+    <!-- List of names added -->
+    <h2>Names</h2>
+    <ul id="nameList"></ul>
+
+    <!-- Script for the wheel functionality -->
+    <script src="script.js"></script>
+  </body>
+</html>
