@@ -2,6 +2,12 @@
 
 Este projeto é uma aplicação web simples que permite aos usuários adicionar nomes a uma roleta e girá-la para selecionar aleatoriamente um vencedor. A roleta toca um som enquanto gira. Após a roleta parar, o vencedor é exibido na tela.
 
+## Acesso
+
+Você pode acessar a aplicação online através do seguinte link:
+
+[Gerador de Recibo](https://rolim8.github.io/Wheel-Name-Selector/code/index.html)
+
 ## Funcionalidades
 
 - Adicionar nomes à roda
