@@ -6,7 +6,7 @@ Este projeto é uma aplicação web simples que permite aos usuários adicionar 
 
 Você pode acessar a aplicação online através do seguinte link:
 
-[Gerador de Recibo](https://rolim8.github.io/Wheel-Name-Selector/code/index.html)
+[Selecionador](https://rolim8.github.io/Wheel-Name-Selector/code/index.html)
 
 ## Funcionalidades
 
