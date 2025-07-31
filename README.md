@@ -6,7 +6,7 @@ Este projeto é uma aplicação web simples que permite aos usuários adicionar 
 
 Você pode acessar a aplicação online através do seguinte link:
 
-[Selecionador](https://rolim8.github.io/Wheel-Name-Selector/code/)
+[Selecionador](https://rolim8.github.io/Wheel-Name-Selector/index.html)
 
 ## Funcionalidades
 
