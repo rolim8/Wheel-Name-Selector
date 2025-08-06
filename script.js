@@ -19,7 +19,7 @@ class WheelOfNames {
         this.settingsModal = document.getElementById('settingsModal');
         this.closeSettings = document.getElementById('closeSettings');
         
-        this.names = ['Amazing', 'Brilliant', 'Fantastic', 'Incredible', 'Wonderful'];
+        this.names = ['Amor', 'Baixinho', 'Coração', 'Docinho', 'Escola', 'Feijão'];
         this.rotation = 0;
         this.isSpinning = false;
         this.spinStartTime = 0;
